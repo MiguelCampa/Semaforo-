@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo</title>
+
+    <link rel="stylesheet" href="Style/colores.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <!-- semaforito -->
+        <div class="semaforo">
+            <div id="rojo" class="luz rojo"></div>
+            <div id="amarillo" class="luz amarillo"></div>
+            <div id="verde" class="luz verde"></div>
+        </div>
+
+
+        <!-- Controles principales del semaforo -->
+        <div class="controles">
+
+            <h2>Modo automático</h2>
+
+            <button id="btnAutomatico" class="btn-automatico">
+                Modo automático: OFF
+            </button>
+
+
+            <h2>Modo manual</h2>
+
+            <button id="btnRojo">Cambiar a rojo</button>
+
+            <button id="btnAmarillo">Cambiar a amarillo</button>
+
+            <button id="btnVerde">Cambiar a verde</button>
+
+            <button id="btnApagar">Apagar</button>
+
+        </div>
+
+
+        <!-- Espacio de los contadores -->
+        <div class="contador">
+
+            <h2>Conteo de colores</h2>
+
+            <div class="contador-color">
+                <div class="circulo rojo"></div>
+                <span id="contadorRojo">0 veces</span>
+            </div>
+
+            <div class="contador-color">
+                <div class="circulo amarillo"></div>
+                <span id="contadorAmarillo">0 veces</span>
+            </div>
+
+            <div class="contador-color">
+                <div class="circulo verde"></div>
+                <span id="contadorVerde">0 veces</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/semaforo.js"></script>
+
+</body>
+</html>
