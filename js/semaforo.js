@@ -9,6 +9,7 @@ const btnRojo = document.getElementById("btnRojo");
 const btnAmarillo = document.getElementById("btnAmarillo");
 const btnVerde = document.getElementById("btnVerde");
 const btnApagar = document.getElementById("btnApagar");
+const btnReiniciar = document.getElementById("btnReiniciar");
 
 
 const contadorRojo = document.getElementById("contadorRojo");
@@ -89,6 +90,22 @@ btnApagar.addEventListener("click", function() {
     detenerAutomatico();
     apagarLuces();
 });
+
+
+
+// Reiniciar contadores
+btnReiniciar.addEventListener("click", function() {
+
+    conteoRojo = 0;
+    conteoAmarillo = 0;
+    conteoVerde = 0;
+
+    contadorRojo.textContent = "0 veces";
+    contadorAmarillo.textContent = "0 veces";
+    contadorVerde.textContent = "0 veces";
+
+}); 
+
 
 // Modo automatico (Verde -> Amarillo -> Rojo)
 
