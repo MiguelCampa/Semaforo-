@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 
-    background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/tvazteca/NMFMYHKKD5B55BT4YBRYGI3IUE.jpg");
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/071/882/304/small/an-empty-road-at-night-under-a-starry-sky-photo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body {
 /* Títulos */
 
 h2 {
-    color: #0785ed;
+    color: #ffffff;
     font-size: 23px;
     margin-top: 5px;
     margin-bottom: 10px;

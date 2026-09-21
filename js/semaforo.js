@@ -32,9 +32,9 @@ function apagarLuces() {
     luzVerde.classList.remove("encendida");
 
     // Apaga por opacidad 
-    luzRojo.style.opacity = "0.3";
-    luzAmarillo.style.opacity = "0.3";
-    luzVerde.style.opacity = "0.3";
+    luzRojo.style.opacity = "0.5";
+    luzAmarillo.style.opacity = "0.5";
+    luzVerde.style.opacity = "0.5";
 
 }
 
